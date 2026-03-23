@@ -1,1 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+
+  /* primary colors */
+  --color-PRed-500: #ff525d;
+  --color-PRed-400: #ff7a85;
+  --color-PBlue-900: #1f3f5b;
+
+
+  /* neutral colors */
+
+  --color-NWhite: #ffffff;
+  --color-NGray-600: #4b5862;
+  --color-NGray-900: #25252d;
+
+
+  /* Gradient */
+
+  /* 
+Background gradient - intro/CTA mobile nav: */
+
+  --color-BGN-Orange-300: #ff8f70;
+  --color-BGN-Red-550: #ff3d54;
+
+  /* Background gradient - body: */
+
+  --color-BGB-Purple-950: #2c2d3f;
+  --color-BGB-Purple-900: #3d3f61;
+
+  --font-Overpass: "Overpass", sans-serif;
+  --font-Ubuntu: "Ubuntu", sans-serif;
+}
