@@ -96,7 +96,7 @@ return(
 					</div>
 
 								{/* power tooling */}
-							<div className="border w-full h-auto p-2 flex flex-col gap-3">
+							<div className="border w-full h-auto p-2 flex flex-col gap-3 mb-10">
 								<h3 className="text-PBlue-900 text-3xl text-center font-bold font-Overpass mt-8">Powerful tooling</h3>
 								<p className="text-NGray-600 text-center font-Overpass tracking-normal text-lg"> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
 							
