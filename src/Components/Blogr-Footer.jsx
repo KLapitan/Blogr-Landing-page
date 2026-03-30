@@ -1,22 +1,4 @@
-const Links =[{
-
-    id:0,
-    links:"Product",
-    sublinks:["Overview", "Pricing", "Marketplace","Features","Integrations" ]
-},{
-    id:1,
-    links:"Company",
-    sublinks:["About","Team","Blog","Careers"]
-
-},
-{
-  id:2,
-  links:"Connect",
-  sublinks:["Contact","Newsletter" , "LinkedIn"]
-
-}]
-
-const  BlogrFooter = () => {
+const  BlogrFooter = ({link}) => {
 
 
 return (
@@ -28,7 +10,7 @@ return (
 
     <div className="mb-10">
     <ul className="flex flex-col gap-6 p-2 ">
-      {Links.map(link => (
+      {link.map(link => (
        <li key={link.id} className="text-NWhite font-Overpass font-bold text-center text-md mb-2">{link.links}
         {link.sublinks && link.sublinks.length > 0 && (
         <ul className="flex flex-col gap-1 mt-3 ">

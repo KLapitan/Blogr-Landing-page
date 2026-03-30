@@ -1,10 +1,12 @@
 const BlogrLandingPage =() => {
+
+
 return(
-<main className="h-auto">
+<main className="h-auto relative">
 <section className="h-auto">
 
   {/* intro section */}
-  <section className="relative h-screen w-auto  rounded-bl-[120px] bg-linear-to-br from-BGN-Orange-300 to-BGN-Red-550  overflow-hidden   ">
+  <section className="relative h-140 lg:h-screen w-auto  rounded-bl-[120px] bg-linear-to-br from-BGN-Orange-300 to-BGN-Red-550  overflow-hidden   mb-10">
   <div className="absolute inset-0 z-10 bg-[url('images/bg-pattern-intro-mobile.svg')] w-full h-full overflow-hidden bg-fill bg-no-repeat bg-center flex justify-center items-center ">
 
     <div className="gap-4 flex flex-col border">
