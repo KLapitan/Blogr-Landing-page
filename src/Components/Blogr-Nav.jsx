@@ -32,7 +32,7 @@ useEffect(() => {
 }, [])
 
 return(
-<nav className="w-full border h-20 absolute top-12 z-30 p-2 lg:left-35 lg:w-5xl">
+<nav className="w-full border h-20 absolute top-12 z-30 p-2 lg:left-35 lg:w-6xl">
 <section className=" flex flex-row justify-between items-center m-3 relative ">
 
 <div className="flex flex-row gap-10 items-center">
