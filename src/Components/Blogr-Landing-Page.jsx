@@ -18,7 +18,7 @@ return(
     
  
     <div className="flex flex-col items-center justify-center  text-NWhite w-full p-2 gap-2 z-20">
-    <h2 className="font-Overpass font-semibold text-4xl text-center text-wrap tracking-tighter p-2 w-80 border  md:text-5xl md:w-full lg:text-6xl lg:w-full lg:tracking-tighter lg:scale-129">A modern publishing platform</h2>
+    <h2 className="font-Overpass font-semibold text-4xl text-center text-wrap tracking-tighter p-2 w-80   md:text-5xl md:w-full lg:text-6xl lg:w-full lg:tracking-tighter lg:scale-129">A modern publishing platform</h2>
     <p className="p-4 w-auto font-Ubuntu text-white/90  font-light text-center text-lg md:text-xl lg:text-xl">Grow your audience and build your online brand</p>
     </div>
   
