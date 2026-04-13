@@ -33,9 +33,14 @@ return (
 
 
 
+<div className="text-white">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="text-white">Frontend Mentor</a>. 
+    Coded by <a href="" className="underline">Karl Lapitan</a>.
+  </div>
+
+
 </section>
-
-
+ 
 
 </footer>
 )
