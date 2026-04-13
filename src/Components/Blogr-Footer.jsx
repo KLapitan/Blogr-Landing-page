@@ -33,7 +33,7 @@ return (
 
 
 
-<div className="text-white">
+<div className="text-white lg:place-self-end lg:w-xl ">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" className="text-white">Frontend Mentor</a>. 
     Coded by <a href="" className="underline">Karl Lapitan</a>.
   </div>
