@@ -25,7 +25,7 @@ const Links =[{
 
 return(
 <>
-{/* <BlogrNav link={Links}/> */}
+<BlogrNav link={Links}/>
 <BlogrLandingPage/>
 <BlogrFooter link={Links}/> 
 </>

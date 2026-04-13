@@ -18,7 +18,7 @@ return(
     
  
     <div className="flex flex-col items-center justify-center  text-NWhite w-full p-2 gap-2 z-20">
-    <h2 className="font-Overpass font-semibold text-4xl text-center tracking-tight p-2 w-80  md:text-5xl md:w-full lg:text-6xl lg:w-full lg:tracking-tighter lg:scale-129">A modern publishing platform</h2>
+    <h2 className="font-Overpass font-semibold text-4xl text-center text-wrap tracking-tighter p-2 w-80 border  md:text-5xl md:w-full lg:text-6xl lg:w-full lg:tracking-tighter lg:scale-129">A modern publishing platform</h2>
     <p className="p-4 w-auto font-Ubuntu text-white/90  font-light text-center text-lg md:text-xl lg:text-xl">Grow your audience and build your online brand</p>
     </div>
   
@@ -28,7 +28,7 @@ return(
 
     <div className="flex  z-30 gap-4 items-center justify-center font-Overpass font-bold mb-2 ">
     <button className=" rounded-full bg-NWhite text-BGN-Red-550 px-4 py-2 lg:px-5 lg:py-3 lg:text-lg lg:font-bold active:text-NWhite active:bg-neutral-100/40 cursor-pointer hover:bg-neutral-100/80">Start for Free</button>
-    <button className=" rounded-full px-4 py-2  text-NWhite lg:px-6 lg:py-3 lg:text-lg active:bg-NWhite active:text-BGN-Red-550">Learn More</button>
+    <button className=" rounded-full px-4 py-2  text-NWhite lg:px-6 lg:py-3 lg:text-lg active:bg-NWhite active:text-BGN-Red-550 cursor-pointer hover:underline active:no-underline">Learn More</button>
     </div>
     </div>
 
@@ -88,14 +88,14 @@ return(
                     	<div className=" relative  mt-2  p-2 lg:p-0 w-full h-auto ">  
 
                                 {/* phone */}
-							<picture><img src="images/illustration-phones.svg" alt="phone-picture" className="absolute left-4 w-80 h-80  z-20 md:hidden lg:hidden" /></picture> 
+							<picture><img src="images/illustration-phones.svg" alt="phone-picture" className="absolute left-4 w-80 h-80  z-20 sm:block sm:w-100 sm:h-100 md:block md:w-130 md:h-135 lg:hidden" /></picture> 
                         
 							<picture><img src="images/illustration-phones.svg" alt="phone-picture" className="hidden absolute  lg:flex lg:left-26 lg:w-155 lg:h-170  lg:z-20 lg:-top-16"/></picture> 
                         
 								{/*container for pictures and description  */}
-                        	<div className="relative w-full h-132.5 mt-35   rounded-tr-[100px]  rounded-bl-[100px] bg-BGB-Purple-950 flex flex-col  overflow-hidden 
+                        	<div className="relative w-full h-132.5 mt-35   rounded-tr-[100px]  rounded-bl-[100px] bg-BGB-Purple-950 flex flex-col  overflow-hidden m-0
 												
-													lg:rounded-tr-[90px] lg:rounded-bl-[90px] lg:mt-5 lg:h-120 ">
+													lg:rounded-tr-[90px] lg:rounded-bl-[90px] lg:mt-5 lg:h-120">
 
 								{/* circle div container */}
 
@@ -104,9 +104,9 @@ return(
 								</div>
                             
                             	{/* description */}
-								<div className=" w-auto p-2  flex flex-col gap-3 z-30 mt-45 md:p-2   lg:w-xl lg:absolute lg:left-190 ">
-                            		<h2 className="text-NWhite text-3xl text-center font-Overpass font-bold tracking-wide lg:text-left  lg:flex lg:flex-row gap-1 lg:text-4xl lg:tracking-tight ">State of the Art <p className="tracking-normal lg:tracking-tight lg:text-4xl">Infrasctructure</p></h2>
-                            		<p className="text-NWhite font-Ubuntu tracking-normal  text-center text-md lg:text-left lg:tracking-normal lg:text-md lg:w-lg  ">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.This ensures your site will load instantly, no matter where your readers are, keeping your site competitive</p>
+								<div className=" w-auto p-2  flex flex-col gap-3 z-30 mt-45 sm:mt-55 md:p-2 md:hidden lg:block  lg:w-xl lg:absolute lg:left-190 ">
+                            		<h2 className="text-NWhite text-3xl text-center font-Overpass font-bold tracking-wide lg:text-left  lg:flex lg:flex-row gap-1 lg:text-4xl lg:tracking-tight  ">State of the Art <p className="tracking-normal lg:tracking-tight lg:text-4xl">Infrasctructure</p></h2>
+                            		<p className="text-NWhite font-Ubuntu tracking-normal  text-center text-md sm:text-center  sm:w-md sm:place-self-center lg:-ml-10 lg:text-left lg:tracking-normal lg:text-md lg:w-lg  ">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.This ensures your site will load instantly, no matter where your readers are, keeping your site competitive</p>
                              	</div> 
                        		 </div>
                     	</div>

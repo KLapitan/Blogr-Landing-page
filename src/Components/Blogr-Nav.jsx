@@ -29,14 +29,26 @@ useEffect(() => {
   return () => {
    document.removeEventListener("keydown", handleEscape)
   }
-
 }, [])
 
-return(
-<nav className="w-full flex border h-20 absolute top-12 z-30  lg:w-7xl lg:left-32 lg:shrink">
-<section className=" flex f-grow flex-row justify-between items-center m-3 border w-full">
 
-<div className="flex flex-row gap-24 md:gap-10 lg:gap-17 items-center border">
+useEffect(() => {
+  const handleSublinkResize= () => {
+  if(window.innerWidth <= 1024)
+    setActiveLinks(null)
+  }
+
+    window.addEventListener("resize", handleSublinkResize)
+    return () => {
+    window.removeEventListener("resize", handleSublinkResize)
+    }
+},[])
+
+return(
+<nav className="w-full flex  h-20 absolute top-6 lg:top-13 z-30  lg:w-7xl lg:left-32 lg:shrink">
+<section className=" flex  flex-row justify-between items-center m-3  w-full">
+
+<div className="flex flex-row gap-24 md:gap-10 lg:gap-17 items-center  ml-2">
 <picture>
 <img src="images/logo.svg" alt="logo-picture" />
 </picture>
