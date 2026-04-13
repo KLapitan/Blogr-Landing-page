@@ -33,7 +33,7 @@ useEffect(() => {
 }, [])
 
 return(
-<nav className="w-full flex border h-20 absolute top-12 z-30  lg:w-7xl lg:left-22 lg:shrink">
+<nav className="w-full flex border h-20 absolute top-12 z-30  lg:w-7xl lg:left-32 lg:shrink">
 <section className=" flex f-grow flex-row justify-between items-center m-3 border w-full">
 
 <div className="flex flex-row gap-24 md:gap-10 lg:gap-17 items-center border">
@@ -45,7 +45,7 @@ return(
   {link.map(item => (
   <li key={item.id} className="relative text-NWhite text-md font-Ubuntu font-bold">
   
-  <button className="flex flex-row items-center gap-2" onClick={()=> handleActiveLinks(item.id)}>
+  <button className="flex flex-row items-center gap-2  hover:underline" onClick={()=> handleActiveLinks(item.id)}>
   {item.links}
 
   <img src="images/icon-arrow-light.svg" alt="arrow-links" className={`transition-transform ${activeLinks === item.id ? "rotate-180" : ""}  `} />
@@ -53,9 +53,9 @@ return(
 
 
   {activeLinks === item.id && (
-  <ul className="absolute bg-NWhite p-3 rounded-md flex flex-col gap-2">
+  <ul className="absolute bg-NWhite p-4 mt-5  w-auto h-auto -ml-4 rounded-md flex flex-col justify-end   shadow-lg shadow-NGray-900  lg:p-6 gap-2">
   {item.sublinks.map(sublink => (
-  <li className="text-sm border-b text-NGray-900">{sublink}</li>
+  <li className="text-md    text-NGray-600 hover:text-NGray-900 hover:cursor-pointer font-Overpass  ">{sublink}</li>
 
   ))}
   </ul>
@@ -75,8 +75,8 @@ return(
 
 
 <div className="md:flex lg:flex flex-row gap-7 hidden ">
-<button className="text-NWhite font-Ubuntu text-md">Login</button>
-<button className="bg-NWhite text-BGN-Red-550 font-Ubuntu font-bold px-10 py-3 text-md rounded-full text-center">Sign Up</button>
+<button className="text-NWhite font-Ubuntu text-md cursor-pointer hover:underline">Login</button>
+<button className="bg-NWhite text-BGN-Red-550 font-Ubuntu font-bold px-10 py-3 text-md rounded-full text-center active:bg-BGN-Red-550/40 active:text-NWhite cursor-pointer">Sign Up</button>
 
 
 </div>
