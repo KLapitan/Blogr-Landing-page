@@ -1,3 +1,3 @@
 BLOGR LANDING PAGE (FRONTENDMENTOR CHALLENGE)
 
-https://loop-studio-landing-page-iota.vercel.app/
+live site : https://blogr-frontend-mentor-tau.vercel.app/
